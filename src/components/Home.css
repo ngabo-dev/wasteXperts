@@ -1,0 +1,230 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+ /* Navbar styles */
+.navbar {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end; /* Align items to the end (right side) */
+    margin-right: 20px; /* Optional: Add margin to separate from the right edge */
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-signup {
+    display: flex;
+  }
+  
+  .login-signup button {
+    padding: 8px 15px;
+    background-color: #3cb371;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-signup button:hover {
+    background-color: #32cd32;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    
+  }
+  .container{
+    
+  }
+  
+  .header h1 {
+    color: #2e8b57;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  /* Main Content Section styles */
+  .main-content {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    color: #2e8b57;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .service {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .service h3 {
+    color: #2e8b57;
+  }
+  
+  .service p {
+    margin-bottom: 20px;
+  }
+  
+  .service button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .service button:hover {
+    background-color: #3cb371;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-image: url("../images/360_F_581600829_FELbYAM9N9ubKyHjrWmt9jG4yNJOynFb.jpg");
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .email-subscribe {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .email-subscribe input[type="email"] {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .email-subscribe button {
+    background-color: #3cb371;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .email-subscribe button:hover {
+    background-color: #32cd32;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }  
